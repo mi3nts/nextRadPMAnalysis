@@ -12,3 +12,9 @@ figure_param = FigureParam(get(groot, 'ScreenSize'), 5, 5, 10, 10);
 [data] = loadTable('mints_NextRadWithGrimmAndFWNode_1_1_data_from_12-Feb-2019_to_11-Apr-2019', 0.05);
 
 % Result from fitrensemble.
+[RMSE, R] = describeRensemble(data, wanted_target_index, figure_param);
+result.fitrensemble_RMSE = RMSE;
+result.fitrensemble_R = R;
+clear RMSE R;
+
+% Result from SVM.

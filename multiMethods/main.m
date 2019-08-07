@@ -24,7 +24,7 @@ result.svm_R = R;
 clear RMSE R;
 
 % Result from tree bagger.
-[RMSE, R] = describeSVMlinear(data, wanted_target_index);
+[RMSE, R] = describeTreeBagger(data, wanted_target_index, figure_param);
 result.treebagger_RMSE = RMSE;
 result.treebagger_R = R;
 clear RMSE R;

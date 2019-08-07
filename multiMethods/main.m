@@ -28,3 +28,5 @@ clear RMSE R;
 result.treebagger_RMSE = RMSE;
 result.treebagger_R = R;
 clear RMSE R;
+
+% Result from neural network.

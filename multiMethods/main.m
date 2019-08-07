@@ -18,3 +18,13 @@ result.fitrensemble_R = R;
 clear RMSE R;
 
 % Result from SVM.
+[RMSE, R] = describeSVMlinear(data, wanted_target_index);
+result.svm_RMSE = RMSE;
+result.svm_R = R;
+clear RMSE R;
+
+% Result from tree bagger.
+[RMSE, R] = describeSVMlinear(data, wanted_target_index);
+result.treebagger_RMSE = RMSE;
+result.treebagger_R = R;
+clear RMSE R;

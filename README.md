@@ -19,9 +19,9 @@
 
 * MSRE convergence during training:
 
-1. FitREnsemble: MSE value converge according to learning cycles increasing. Fig below. ![]:(https://github.com/mi3nts/nextRadPMAnalysis/blob/master/fitrensemble.png)
+1. FitREnsemble: MSE value converge according to the increase of learning cycles. Fig below. ![Image of FitREnsemble](https://github.com/mi3nts/nextRadPMAnalysis/blob/master/fitrensemble.jpg)
 
-2. TreeBagger.
+2. TreeBagger: MSE value converge according to the increase of tree number. ![Image of TreeBagger](https://github.com/mi3nts/nextRadPMAnalysis/blob/master/treebagger.jpg)
 
 ### How to: Download the code and Run locally
 

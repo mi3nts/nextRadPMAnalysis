@@ -17,9 +17,10 @@
 | SVM | 758.27 | -0.0634 |
 | TreeBagger | 4.0932 | 0.9909 |
 
-* MSRE convergence durgin training:
+* MSRE convergence during training:
 
-1. FitREnsemble.
+1. FitREnsemble: MSE value converge according to learning cycles increasing. Fig below. ![]:(fitrensemble.jpg)
+
 2. TreeBagger.
 
 ### How to: Download the code and Run locally

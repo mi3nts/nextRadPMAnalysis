@@ -5,7 +5,7 @@ clear; close all; clc;
 wanted_target_index = 1;
 
 % Set up figures alignment.
-figure_param = FigureParam(get(groot, 'ScreenSize'), 5, 5, 10, 10);
+figure_param = FigureParam(get(groot, 'ScreenSize'), 2, 2, 10, 10);
 
 %--------------------------------------------------------------------------
 % load data.

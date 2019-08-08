@@ -12,6 +12,8 @@ function [RMSE, R] = describeRensemble(data, index, figure_param)
     title('\fontsize{15} FitREnsemble Training EMS-LearningEpoches Plot', 'Interpreter', 'tex');
     ylabel('10-fold cross-validated MSE');
     xlabel('Learning cycle');
+    set(gca,'FontSize',32);
+    set(gca,'LineWidth',2);
     
     % Train another tree with fitrensemble.
     Mdl2 = fitrensemble(inputs, target, 'CrossVal', 'off');

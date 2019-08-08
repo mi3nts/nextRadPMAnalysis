@@ -13,7 +13,7 @@ function [RMSE, R] = describeTreeBagger(data, index, figure_param)
     xlabel('Number of Trees','FontSize',30);
     ylabel('Out of Bag Error','FontSize',30);
     title('Out of Bag Error','FontSize',30);
-    set(gca,'FontSize',16);
+    set(gca,'FontSize',32);
     set(gca,'LineWidth',2);
     
     % Calculate RMSE and R.
